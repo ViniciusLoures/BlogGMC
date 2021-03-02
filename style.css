@@ -70,12 +70,12 @@ nav:after {
 
 .nav-container li a {
     text-decoration: none;
-    color: #fa4e40;
+    color: #3381f3 ;
     transition: .5s;
 }
 
 .nav-container li a:hover {
-    color: #3381f3;
+    color: #fa4e40;
 }
 
 /* banner */
