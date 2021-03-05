@@ -87,6 +87,14 @@ nav:after {
     margin-top: 100px;
 
 }
+#main-banner-2 {
+    background: url(imagens/pag002coveropaco.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 45%;
+    position: relative;
+    margin-top: 100px;
+
+}
 
 #search-form {
     position: relative;
@@ -103,7 +111,7 @@ nav:after {
     color:rgb(250, 250, 237);
 }
 
-#search-form p {
+#search-form p{
     margin-top: 30px;
     margin-bottom: 60px;
     font-size: 36px;
@@ -114,8 +122,8 @@ nav:after {
 
 #lastjobs {
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-decoration: none;
     font-size: 18px;
 }
@@ -125,4 +133,28 @@ nav:after {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#blocodetexto  p, h2{
+    margin-top: 1em;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #001D26;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.botao:hover {
+    background: #fa4e40;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+#dicas {
+    margin-bottom: 15em;
+    text-align: center;
 }
